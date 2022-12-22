@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Layout top, right, bottom, left</title>
+</head>
+<body>
+  <div class="relative h-60 w-60 bg-red-100">
+    <div class="absolute inset-x-0 right-0 h-24 w-24 bg-indigo-600">01</div>
+    <div class="absolute right-0 h-24 w-24 bg-orange-600">02</div>
+    <div class="absolute inset-y-6 h-24 w-24 bg-slate-600">05</div>
+    <div class="absolute bottom-0 h-24 w-24 bg-pink-600">03</div>
+    <div class="absolute bottom-0 right-0 h-24 w-24 bg-lime-600">04</div>
+  </div>
+
+  <!-- Change image using layout position -->
+  <div class="flex justify-center">
+    <div class="border-2 relative max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-20">
+      <div class="-mt-16 absolute left-1/2 -translate-x-1/2 md:translate-x-0 md:left-[75%]">
+        <a href="https://www.pexels.com/pt-br/foto/mt-fuji-248195/" target="_blank" alt="Foto de Pixabay: Monte Fuji">
+          <img class="w-20 h-20 object-cover rounded-full border-2 border-indigo-500" src="../fundamentos/monte-fuji.jpg" alt="Monte Fuji">
+        </a>
+      </div>
+      <div>
+        <h2 class="text-gray-800 text-3xl font-semibold">Curso de Tailwind CSS</h2>
+        <p class="mt-2 text-gray-600">Neste curso iremos apresentar uma introdução dos recursos do Tailwind CSS de forma a que após concluir  você possa utilizar o Tailwind CSS em seus projetos profissionais ou pessoais.</p>
+      </div>
+      <div class="flex justify-end mt-4">
+        <a href="#" class="text-xl font-medium text-indigo-500">Alice Hata</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
