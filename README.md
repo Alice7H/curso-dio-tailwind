@@ -20,7 +20,7 @@ Apresentar o framework CSS Tailwind e seus principais fundamentos.
 
 - Criação as diretivas `@tailwind` ao css no arquivo input.css
 
-- Execução da ferramenta CLI para verificar arquivos de modelo em buscas de classes e criação de CSS com o comando `npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch`
+- Execução da ferramenta CLI para verificar arquivos de modelo em buscas de classes e criação de CSS com o comando `npx tailwindcss -i ./src/css/input.css -o ./dist/output.css --watch`
 
 - Adição do arquivo CSS à tag `<head>`.
 
@@ -134,6 +134,8 @@ Apresentar o framework CSS Tailwind e seus principais fundamentos.
 ## Mais informações:
 
 [documentação do tailwind css](https://tailwindcss.com/docs/installation)
+
+[github - joaopaulomirandamatias](https://github.com/joaopaulomirandamatias/dio-introducao-ao-tailwind/)
 
 ## Material de apoio
 
