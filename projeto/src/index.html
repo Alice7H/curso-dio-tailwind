@@ -9,7 +9,7 @@
 </head>
 <body>
   <div class="flex min-h-screen overflow-hidden">
-    <div class="bg-gray-100 w-12 lg:w-72
+    <header class="bg-gray-100 w-12 lg:w-72
     min-h-screen border-r-2 border-fuchsia-600 md:none">
       <div class="flex flex-none w-full justify-center items-center lg:py-16 text-center">
         <div class="text-purple-900 text-center text-2xl font-extrabold items-center border-indigo-600 lg:visible invisible animate-pulse">
@@ -41,8 +41,39 @@
             </li>
           </ul>
         </nav>
+        <nav class="lg:visible invisible flex w-full -mt-80">
+          <ul class="text-left text-base">
+            <li class="list-inside w-52 font-bold border-b-2 border-indigo-600 text-gray-900 hover:text-purple-900 border-opacity-25 mx-8 mb-6 pb-3">
+              <a href="#" class="flex justify-start">
+                <img src="../img/icons/home.png" alt="Ícone de Casa" class="object-contain h-6 w-6 mr-2">
+                HOME
+              </a>
+            </li>
+            <li class="list-inside w-52 font-bold border-b-2 border-indigo-600 text-gray-900 hover:text-purple-900 border-opacity-25 mx-8 mb-6 pb-3">
+              <a href="#" class="flex justify-start">
+                <img src="../img/icons/user.png" alt="Ícone de Usuário" class="object-contain h-6 w-6 mr-2">
+                ABOUT
+              </a>
+            </li>
+            <li class="list-inside w-52 font-bold border-b-2 border-indigo-600 text-gray-900 hover:text-purple-900 border-opacity-25 mx-8 mb-6 pb-3">
+              <a href="#" class="flex justify-start">
+                <img src="../img/icons/briefcase.png" alt="Ícone de Projetos" class="object-contain h-6 w-6 mr-2">
+                PROJECTS
+              </a>
+            </li>
+            <li class="list-inside w-52 font-bold border-b-2 border-indigo-600 text-gray-900 hover:text-purple-900 border-opacity-25 mx-8 mb-6 pb-3">
+              <a href="#" class="flex justify-start">
+                <img src="../img/icons/bubble-chat.png" alt="Ícone de Contato" class="object-contain h-6 w-6 mr-2">
+                CONTACT
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <p class="lg:visible invisible text-center text-xs font-medium text-gray-400 w-full">
+          Copyright &copy; 2022 Dio.me
+        </p>
       </div>
-    </div>
+    </header>
     <main class="bg-blue-300">
       <section id="home"></section>
     </main>
