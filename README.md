@@ -131,12 +131,17 @@ Apresentar o framework CSS Tailwind e seus principais fundamentos.
 - Conteúdo 1
 - Conteúdo 2
 
-## Mais informações:
+## Mais informações
 
-[documentação do tailwind css](https://tailwindcss.com/docs/installation)
+- [Documentação do tailwind css](https://tailwindcss.com/docs/installation)
 
-[github - joaopaulomirandamatias](https://github.com/joaopaulomirandamatias/dio-introducao-ao-tailwind/)
+- [Github - joaopaulomirandamatias](https://github.com/joaopaulomirandamatias/dio-introducao-ao-tailwind/)
 
 ## Material de apoio
 
-[Introdução ao Tailwind](https://docs.google.com/presentation/d/1KuAqxW8u3Xo450wjK_g-jcMxpfjMqg25/edit#slide=id.p62)
+[Introdução ao Tailwind](https://docs.google.com/presentation/d/1KuAqxW8u3Xo450wjK_g-jcMxpfjMqg25/edit#slide=id.p62) disponível no docs.google
+
+## Créditos
+
+<a href="https://iconscout.com/icons/facebook" target="_blank">Facebook Icon</a> por <a href="https://iconscout.com/contributors/icon-mafia" target="_blank">Icon Mafia</a> em <a href="https://iconscout.com" target="_blank">IconScout</a>
+Outros ícones por [João Paulo Miranda Matias](https://www.linkedin.com/in/joaopaulomirandamatias/)
